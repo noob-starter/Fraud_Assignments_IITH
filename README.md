@@ -1,6 +1,6 @@
 # Fraud_Assignments_IITH
 
-   <p>This repository contains a comprehensive approach to credit card fraud detection using various advanced techniques. The main methods implemented are Variational Autoencoders (VAE), Autoencoders (AE), and Cost-sensitive Logistic Regression using the Bhasen and Nikoee Guenman method. Additionally, we explore synthetic data generation using VAE to enhance our model's performance.</p>
+   <p>This repository contains a comprehensive approach to credit card fraud detection using various advanced techniques. The main methods implemented are Variational Autoencoders (VAE), Autoencoders (AE), and Cost-sensitive Logistic Regression using the Bahnsen and Nikou Günnemann method and clustring the data using g Node2Vec, Spectral and GCN Embeddings. Additionally, we explore synthetic data generation using VAE to enhance our model's performance.</p>
 
    <h2>Table of Contents</h2>
     <ul>
@@ -12,6 +12,9 @@
                 <li><a href="#autoencoders-ae">Autoencoders (AE)</a></li>
                 <li><a href="#cost-sensitive-logistic-regression">Cost-sensitive Logistic Regression</a></li>
                 <li><a href="#synthetic-data-generation">Synthetic Data Generation</a></li>
+               <li><a href="#node2vec">Node 2 Vector</a></li>
+               <li><a href="#spectral">Spectral Clustering </a></li>
+               <li><a href="#gcn">Graph Convolution Networks Clustering</a></li>
             </ul>
         </li>
         <li><a href="#installation">Installation</a></li>
@@ -26,12 +29,9 @@
     <p>Credit card fraud detection is a critical issue in the financial sector. This project aims to detect fraudulent transactions by leveraging machine learning and deep learning techniques. By using a combination of Variational Autoencoders, Autoencoders, and Cost-sensitive Logistic Regression, we strive to achieve high accuracy and robustness in identifying fraudulent activities.</p>
 
    <h2 id="dataset">Dataset</h2>
-    <p>The dataset used in this project is a credit card transaction dataset that includes both legitimate and fraudulent transactions. The dataset contains the following columns:</p>
+    <p>The dataset used in this project is a credit card transaction dataset that includes both legitimate and fraudulent transactions. The dataset used are </p>
     <ul>
-        <li><code>Time</code>: The time elapsed between this transaction and the first transaction in the dataset.</li>
-        <li><code>V1, V2, ..., V28</code>: The principal components obtained with PCA.</li>
-        <li><code>Amount</code>: The transaction amount.</li>
-        <li><code>Class</code>: The target variable, where <code>1</code> indicates fraud and <code>0</code> indicates a legitimate transaction.</li>
+       <li>https://drive.google.com/drive/folders/1fv6AZqbr9bsBUbMxCO8bN_kFpQed-SBE?usp=drive_link</li>
     </ul>
 
    <h2 id="methods">Methods</h2>
