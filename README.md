@@ -47,6 +47,14 @@
    <h3 id="synthetic-data-generation">Synthetic Data Generation</h3>
     <p>To address the class imbalance, we use VAE to generate synthetic data that mimics the characteristics of legitimate transactions. This synthetic data is used to augment the training set, helping to improve the model's performance on imbalanced datasets.</p>
 
+<h3 id="node2vec">Node 2 Vector</h3>
+    <p> A node embedding algorithm that computes a vector representation of a node based on random walks in the graph. The neighborhood nodes of the graph is also sampled through deep random walks. This algorithm performs a biased random walk procedure in order to efficiently explore diverse neighborhoods.  </p>
+ <h3 id="spectral">Spectral Clustering </h3>
+    <p>Spectral clustering is an unsupervised learning algorithm that is used to partition a dataset into distinct groups or clusters. The objective function of spectral clustering can be formulated based on the graph Laplacian as follow: max U tr ⁡ ( U T L U ) , s.t. U T U = I , where t r ( ⋅ ) denotes the trace norm of a matrix. The rows of matrix are the low dimensional embedding of the original data points. </p>
+
+   <h3 id="gcn">Graph Convolution Networks</h3>
+    <p>A Graph Convolutional Network or GCN is an approach for semi-supervised learning on graph-structured data. It is based on an efficient variant of convolutional neural networks </p>
+    
    <h2 id="installation">Installation</h2>
     <p>To run the project, follow these steps:</p>
     <ol>
