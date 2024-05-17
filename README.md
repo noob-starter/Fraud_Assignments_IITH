@@ -18,7 +18,6 @@
             </ul>
         </li>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#usage">Usage</a></li>
         <li><a href="#results">Results</a></li>
         <li><a href="#conclusion">Conclusion</a></li>
         <li><a href="#references">References</a></li>
@@ -59,29 +58,8 @@
     <p>To run the project, follow these steps:</p>
     <ol>
         <li>Clone this repository:
-            <pre><code>git clone https://github.com/yourusername/credit-card-fraud-detection.git
+            <pre><code>git clone https://github.com/noob-starter/Fraud_Assignments_IITH.git
 cd credit-card-fraud-detection</code></pre>
-        </li>
-        <li>Install the required dependencies:
-            <pre><code>pip install -r requirements.txt</code></pre>
-        </li>
-    </ol>
-
-   <h2 id="usage">Usage</h2>
-    <ol>
-        <li>Preprocess the dataset:
-            <pre><code>python preprocess.py</code></pre>
-        </li>
-        <li>Train the models:
-            <pre><code>python train_vae.py
-python train_ae.py
-python train_cost_sensitive_lr.py</code></pre>
-        </li>
-        <li>Generate synthetic data:
-            <pre><code>python generate_synthetic_data.py</code></pre>
-        </li>
-        <li>Evaluate the models:
-            <pre><code>python evaluate_models.py</code></pre>
         </li>
     </ol>
 
@@ -94,12 +72,12 @@ python train_cost_sensitive_lr.py</code></pre>
    <h2 id="references">References</h2>
     <ul>
         <li>Kingma, D. P., & Welling, M. (2013). Auto-Encoding Variational Bayes. arXiv preprint arXiv:1312.6114.</li>
-        <li>Bhasen, B., & Nikoee Guenman, N. (Year). Title of the paper on cost-sensitive logistic regression. Journal Name, Volume(Issue), Page numbers.</li>
+       <li>Cost Matters: A New Example-Dependent Cost-Sensitive Logistic Regression Model, Nikou Günnemann
+</li>
+      
     </ul>
 
    <h2 id="acknowledgements">Acknowledgements</h2>
     <p>We would like to thank the contributors of the credit card dataset and the authors of the referenced papers for their valuable work, which has significantly contributed to this project.</p>
 
-   <p>Feel free to open an issue or submit a pull request if you have any questions or suggestions for improvement.</p>
-</body>
-</html>
+   <p>Feel free to open an issue or submit a pull request if you have any questions or suggestions for improvement. Follow this profile for more such updates </p>
