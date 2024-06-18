@@ -73,9 +73,7 @@ cd credit-card-fraud-detection</code></pre>
     <ul>
         <li>Kingma, D. P., & Welling, M. (2013). Auto-Encoding Variational Bayes. arXiv preprint arXiv:1312.6114.</li>
        <li>Cost Matters: A New Example-Dependent Cost-Sensitive Logistic Regression Model, Nikou Günnemann
-</li>
-      
-    </ul>
+</li></ul>
 
    <h2 id="acknowledgements">Acknowledgements</h2>
     <p>We would like to thank the contributors of the credit card dataset and the authors of the referenced papers for their valuable work, which has significantly contributed to this project.</p>
